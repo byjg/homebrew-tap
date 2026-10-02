@@ -1,8 +1,8 @@
 class Parolsh < Formula
   desc "Speak to your terminal: a natural-language-first shell for ACP agents"
   homepage "https://opensource.byjg.com/docs/ai/parolsh"
-  url "https://github.com/byjg/parolsh/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "1384a216c83c2cece6a7097115f8617ea1b714c847a9c3f0f4d9ee5b9086137f"
+  url "https://github.com/byjg/parolsh/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "dc9d70b97e664038ae65c52816b86a00217084430e6834d53c4f21a51b2640c8"
   license "MIT"
   head "https://github.com/byjg/parolsh.git", branch: "master"
 
