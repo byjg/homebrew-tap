@@ -25,13 +25,14 @@ brew tap byjg/tap
 |---|---|
 | [`parolsh`](https://opensource.byjg.com/docs/ai/parolsh) | Speak to your terminal: a natural-language-first shell for ACP agents |
 | [`static-httpserver`](https://github.com/byjg/docker-static-httpserver) | Minimal HTTP/HTTPS server for static files with SPA support |
+| [`warmphp`](https://opensource.byjg.com/docs/devops/warmphp) | Turns your PHP CLI into a web application server, with persistent workers |
 
 Every formula builds from source on your machine: Homebrew installs the
 compiler (Rust or Go) as a build dependency, compiles, and runs the formula's
 test. The binary is built locally, so macOS does not quarantine it and no
 code signing is needed.
 
-On Linux, the same tools are also available as `.deb` and `.rpm` packages from
+On Linux, the same tools are also available as `.deb`, `.rpm` and `.apk` packages from
 the [ByJG package repository](https://opensource.byjg.com/docs/packages).
 
 ## New versions
